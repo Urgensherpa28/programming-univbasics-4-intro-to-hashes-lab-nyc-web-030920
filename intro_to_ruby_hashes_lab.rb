@@ -32,8 +32,9 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
+  counter = 0
   if hash[key] 
-    hash[key] = hash[key]
+    counter += 1 
   else
     updated_hash = hash[key] == 1 
   end
