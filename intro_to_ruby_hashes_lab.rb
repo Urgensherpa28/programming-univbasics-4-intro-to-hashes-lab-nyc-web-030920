@@ -38,4 +38,4 @@ def update_counting_hash(hash, key)
     hash[key].default = 1 
   end
 end
-
+update_counting_hash(hash, key)
